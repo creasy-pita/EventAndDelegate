@@ -6,7 +6,8 @@ namespace EventAndDelegate
 {
     class GreetingManager
     {
-        public void GreetPeople(string name,GreetingDelegate greetingDelegate)
+        public GreetingDelegate greetingDelegate;
+        public void GreetPeople(string name)
         {
             greetingDelegate(name);
         }
