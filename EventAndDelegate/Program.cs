@@ -8,7 +8,9 @@ namespace EventAndDelegate
         {
             GreetingDelegate delegate1 = ChineseGreeting;
             delegate1 += EnglishGreeting;//多个参数链
-            delegate1("creasypita");//直接调用
+            GreetingManager gm = new GreetingManager();
+            gm.GreetPeople("CreasyPita", delegate1);
+
 
             Console.ReadLine();
         }
