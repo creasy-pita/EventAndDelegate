@@ -1,0 +1,11 @@
+E:\work\myproject\dotnet\EventAndDelegate\EventAndDelegate\bin\Debug\netcoreapp2.0\EventAndDelegate.deps.json
+E:\work\myproject\dotnet\EventAndDelegate\EventAndDelegate\bin\Debug\netcoreapp2.0\EventAndDelegate.runtimeconfig.json
+E:\work\myproject\dotnet\EventAndDelegate\EventAndDelegate\bin\Debug\netcoreapp2.0\EventAndDelegate.runtimeconfig.dev.json
+E:\work\myproject\dotnet\EventAndDelegate\EventAndDelegate\bin\Debug\netcoreapp2.0\EventAndDelegate.dll
+E:\work\myproject\dotnet\EventAndDelegate\EventAndDelegate\bin\Debug\netcoreapp2.0\EventAndDelegate.pdb
+E:\work\myproject\dotnet\EventAndDelegate\EventAndDelegate\obj\Debug\netcoreapp2.0\EventAndDelegate.csprojResolveAssemblyReference.cache
+E:\work\myproject\dotnet\EventAndDelegate\EventAndDelegate\obj\Debug\netcoreapp2.0\EventAndDelegate.csproj.CoreCompileInputs.cache
+E:\work\myproject\dotnet\EventAndDelegate\EventAndDelegate\obj\Debug\netcoreapp2.0\EventAndDelegate.AssemblyInfoInputs.cache
+E:\work\myproject\dotnet\EventAndDelegate\EventAndDelegate\obj\Debug\netcoreapp2.0\EventAndDelegate.AssemblyInfo.cs
+E:\work\myproject\dotnet\EventAndDelegate\EventAndDelegate\obj\Debug\netcoreapp2.0\EventAndDelegate.dll
+E:\work\myproject\dotnet\EventAndDelegate\EventAndDelegate\obj\Debug\netcoreapp2.0\EventAndDelegate.pdb
