@@ -6,7 +6,7 @@ namespace EventAndDelegate
 {
     class Heater
     {
-        public delegate void BoilEventHandler(int temprature);
+        public delegate void BoilEventHandler(object sender, BoiledEventArgs eventArgs);
         public event BoilEventHandler BoilEvent;
 
         private int temperature; // 水温
@@ -19,7 +19,7 @@ namespace EventAndDelegate
 
                 if (temperature > 95)
                 {
-                    BoilEvent(temperature);
+                    BoilEvent(this,new BoiledEventArgs(temperature));
                 }
             }
         }
