@@ -6,10 +6,10 @@ namespace EventAndDelegate
 {
     class GreetingManager
     {
-        public GreetingDelegate greetingDelegate;
+        public event GreetingDelegate MakeGreet;
         public void GreetPeople(string name)
         {
-            greetingDelegate(name);
+            MakeGreet(name);
         }
     }
 }
