@@ -6,11 +6,14 @@ namespace EventAndDelegate
     {
         static void Main(string[] args)
         {
-            GreetingDelegate delegate1 = ChineseGreeting;
-            delegate1 += EnglishGreeting;//多个参数链
-            GreetingManager gm = new GreetingManager();
-            gm.MakeGreet += delegate1;
-            gm.GreetPeople("CreasyPita1231");
+            //GreetingDelegate delegate1 = ChineseGreeting;
+            //delegate1 += EnglishGreeting;//多个参数链
+            //GreetingManager gm = new GreetingManager();
+            //gm.MakeGreet += delegate1;
+            //gm.GreetPeople("CreasyPita1231");
+
+            Heater heater = new Heater();
+            heater.BoilWater();
 
             Console.ReadLine();
         }
