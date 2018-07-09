@@ -13,6 +13,9 @@ namespace EventAndDelegate
             //gm.GreetPeople("CreasyPita1231");
 
             Heater heater = new Heater();
+            heater.BoilEvent += new Alarm().MakeAlert;
+            heater.BoilEvent += new Display().ShowMsg;
+
             heater.BoilWater();
 
             Console.ReadLine();

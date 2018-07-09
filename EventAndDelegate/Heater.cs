@@ -6,6 +6,9 @@ namespace EventAndDelegate
 {
     class Heater
     {
+        public delegate void BoilEventHandler(int temprature);
+        public event BoilEventHandler BoilEvent;
+
         private int temperature; // 水温
         // 烧水
         public void BoilWater()
@@ -16,22 +19,9 @@ namespace EventAndDelegate
 
                 if (temperature > 95)
                 {
-                    MakeAlert(temperature);
-                    ShowMsg(temperature);
+                    BoilEvent(temperature);
                 }
             }
-        }
-
-        // 发出语音警报
-        private void MakeAlert(int param)
-        {
-            Console.WriteLine("Alarm：嘀嘀嘀，水已经 {0} 度了：", param);
-        }
-
-        // 显示水温
-        private void ShowMsg(int param)
-        {
-            Console.WriteLine("Display：水快开了，当前温度：{0}度。", param);
         }
     }
 }
