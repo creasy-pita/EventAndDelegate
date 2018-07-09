@@ -6,7 +6,8 @@ namespace EventAndDelegate
     {
         static void Main(string[] args)
         {
-            GreetPeople("en", "jesse");
+            GreetPeople("creasy pita", EnglishGreeting);
+            GreetPeople("卢俊强", ChineseGreeting);
 
             Console.ReadLine();
         }
@@ -15,15 +16,20 @@ namespace EventAndDelegate
         {
             if (lan == "en")
             {
-                EnlishGreeting(name);
+                EnglishGreeting(name);
             }
-            else
+            else if (lan =="cn")
             {
                 ChineseGreeting(name);
             }
         }
 
-        static void EnlishGreeting(string name)
+        static void GreetPeople(string name, GreetingDelegate greetingDelegate)
+        {
+            greetingDelegate(name);
+        }
+
+        static void EnglishGreeting(string name)
         {
             Console.Write(" morning ," + name);
         }
